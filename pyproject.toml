@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "spanish-words-to-number"
+version = "0.1.0"
+description = "Convert Spanish words representing numbers to integers"
+readme = "README.md"
+requires-python = ">=3.7"
+authors = [
+    {name = "Tally Osborne"}
+]
+license = "MIT"
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+]
+
+[project.urls]
+Homepage = "https://github.com/oowowaee/spanish-words-to-number"
+Repository = "https://github.com/oowowaee/spanish-words-to-number"
+Issues = "https://github.com/oowowaee/spanish-words-to-number/issues"
