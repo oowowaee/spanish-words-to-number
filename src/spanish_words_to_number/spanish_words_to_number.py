@@ -44,6 +44,10 @@ def normalize(words: list[str]) -> list[str]:
         word = unicodedata.normalize('NFKD',
                                      word.lower()).encode('ascii', 'ignore').decode('utf-8')
 
+        # Handle typos
+        if word.startswith('vient'):
+            word = word.replace('vient', 'veint')
+
         if word.startswith('veinti'):
             suffix = word[6:]
             normalized_words += ['veinte', suffix]

@@ -19,7 +19,9 @@ class TestBasicCases:
     def test_handles_numbers_ending_in_tres(self):
         assert spanish_words_to_number('veintitres') == 23
 
+
 class TestCompoundWords:
+
     def test_cuatrocientos(self):
         assert spanish_words_to_number('cuatrocientos') == 400
 
